@@ -1,0 +1,8 @@
+.form-render {
+    width: 100%;
+    height: 100%;
+}
+
+.form-render button {
+    width: 30%;
+}

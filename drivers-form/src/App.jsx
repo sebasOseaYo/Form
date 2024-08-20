@@ -1,12 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
-import form from './components/Form/form'
-
+import forms from './pages/Forms/forms'
 
 function App() {
 
   return (
     <Routes>
-      <Route Component={form} path="/" />
+      <Route Component={forms} path="/" />
     </Routes>
   )
 }
