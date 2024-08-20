@@ -5,19 +5,26 @@
 
 .form-container {
     border-radius: 10px;
-    border: 1px solid rgb(185, 185, 185);
+    border: 2px solid rgb(185, 185, 185);
     width: 30%;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 30px;
 }
 
-form button {
-    width: 100%;
+.form-checker {
+    margin-bottom: 10px;
+}
+
+.utilities {
+    padding: 10px;
 }
 
 .fa-solid.fa-plus {
     color: blue;
     float: right;
+    margin-right: 20px;
+}
+
+.fa-solid.fa-xmark {
+    float: right;
+    color: red;
 }
