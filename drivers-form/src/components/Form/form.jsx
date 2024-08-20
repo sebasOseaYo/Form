@@ -1,11 +1,13 @@
 import React from 'react'
 import './form.css'
 import { Tooltip } from '@mui/material'
+
 const form = () => {
     return (
         <>
             <div className="page-container">
                 <div className="form-container">
+                    {/* ELECCIÓN DE FORMULARIO */}
                     <div className="form-checker">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
@@ -24,8 +26,8 @@ const form = () => {
                             <label class="form-check-label" for="inlineRadio3">Gas Receips</label>
                         </div>
                     </div>
-
                     <form>
+                        {/* UTILIDADES */}
                         <div className="utilities">
                             <Tooltip title="Remove Form">
                                 <i className="fa-solid fa-xmark"></i>
@@ -34,6 +36,8 @@ const form = () => {
                                 <i className="fa-solid fa-plus"></i>
                             </Tooltip>
                         </div>
+                        {/* FORMULARIO */}
+                        <h1 className="title">Name Form</h1>
                         <div className="mb-3">
                             <la className="form-label">4 Driver</la>
                             <input type="fordriver" required className="form-control" />

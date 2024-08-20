@@ -18,6 +18,10 @@
     padding: 10px;
 }
 
+form .title {
+    margin-top: -20px;
+}
+
 .fa-solid.fa-plus {
     color: blue;
     float: right;
@@ -29,4 +33,10 @@
     float: right;
     color: red;
     cursor: pointer;
+}
+
+.fa-solid.fa-plus:hover,
+.fa-solid.fa-xmark:hover {
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
 }
