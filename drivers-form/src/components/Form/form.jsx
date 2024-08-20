@@ -1,6 +1,6 @@
 import React from 'react'
 import './form.css'
-
+import { Tooltip } from '@mui/material'
 const form = () => {
     return (
         <>
@@ -27,14 +27,12 @@ const form = () => {
 
                     <form>
                         <div className="utilities">
-                            <div className="hover-text">
-                                Remove Form
-                            </div>
-                            <i class="fa-solid fa-xmark"></i>
-                            <div className="hover-text">
-                                Add Form
-                            </div>
-                            <i class="fa-solid fa-plus"></i>
+                            <Tooltip title="Remove Form">
+                                <i className="fa-solid fa-xmark"></i>
+                            </Tooltip>
+                            <Tooltip title="Add Form">
+                                <i className="fa-solid fa-plus"></i>
+                            </Tooltip>
                         </div>
                         <div className="mb-3">
                             <la className="form-label">4 Driver</la>
