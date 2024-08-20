@@ -5,7 +5,7 @@
 
 .form-container {
     border-radius: 10px;
-    border: 2px solid rgb(185, 185, 185);
+    border: 1px solid rgb(185, 185, 185);
     width: 30%;
     padding: 30px;
 }
@@ -22,9 +22,38 @@
     color: blue;
     float: right;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .fa-solid.fa-xmark {
     float: right;
     color: red;
+    cursor: pointer;
+}
+
+.utility-item {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hover-text {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.utility-item:hover .hover-text {
+    opacity: 1;
 }

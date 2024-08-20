@@ -27,7 +27,13 @@ const form = () => {
 
                     <form>
                         <div className="utilities">
+                            <div className="hover-text">
+                                Remove Form
+                            </div>
                             <i class="fa-solid fa-xmark"></i>
+                            <div className="hover-text">
+                                Add Form
+                            </div>
                             <i class="fa-solid fa-plus"></i>
                         </div>
                         <div className="mb-3">
