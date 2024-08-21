@@ -1,42 +1,5 @@
-.page-container {
-    width: 100%;
-    height: 100%;
-}
-
-.form-container {
+.form-container form {
+    padding: 5vh;
+    border: 1px solid rgb(164, 164, 164);
     border-radius: 10px;
-    border: 1px solid rgb(185, 185, 185);
-    width: 30%;
-    padding: 30px;
-}
-
-.form-checker {
-    margin-bottom: 10px;
-}
-
-.utilities {
-    padding: 10px;
-}
-
-form .title {
-    margin-top: -20px;
-}
-
-.fa-solid.fa-plus {
-    color: blue;
-    float: right;
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-.fa-solid.fa-xmark {
-    float: right;
-    color: red;
-    cursor: pointer;
-}
-
-.fa-solid.fa-plus:hover,
-.fa-solid.fa-xmark:hover {
-    background-color: rgb(228, 228, 228);
-    border-radius: 5px;
 }
